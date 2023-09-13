@@ -17,7 +17,7 @@ popular_zip = df.groupby('zip_code')['bottles_sold'].sum()
 #plot
 colors = cm.rainbow(np.linspace(0, 1, len(popular_zip)))
 
-fig = plt.figure( dpi = 300)
+fig = plt.figure(dpi=300)
 
 
 plt.scatter(popular_zip.index,popular_zip,color=colors,s=50)
