@@ -94,15 +94,6 @@ locations = list(zip(df.lat, df.lon))
 cluster = plugins.MarkerCluster(locations=locations,                     
                popups=df['bottles_sold'].tolist())  
 m.add_child(cluster)
-m.save('Cluster.html') 
-
-
-
-
-
-
-
-
-    
+m.save('Cluster.html')   
     
     
