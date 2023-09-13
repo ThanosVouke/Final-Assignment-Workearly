@@ -1,0 +1,1329 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b6ad2d02104fe8073cd026301ea0882f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b6ad2d02104fe8073cd026301ea0882f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b6ad2d02104fe8073cd026301ea0882f = L.map(
+                "map_b6ad2d02104fe8073cd026301ea0882f",
+                {
+                    center: [45.0, -90.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_48dbb09c72715652ace1bf826abcfd1c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+            var circle_marker_f575d0c0b523d701184006520eafcc1b = L.circleMarker(
+                [41.006456, -91.978702],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.24, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_d7b2d0f632f71112fa8d457a23120624 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_241623cee43ae41f1a6b366b3de0e41e = $(`<div id="html_241623cee43ae41f1a6b366b3de0e41e" style="width: 100.0%; height: 100.0%;">Hy-Vee Food Store / Fairfield</div>`)[0];
+                popup_d7b2d0f632f71112fa8d457a23120624.setContent(html_241623cee43ae41f1a6b366b3de0e41e);
+            
+        
+
+        circle_marker_f575d0c0b523d701184006520eafcc1b.bindPopup(popup_d7b2d0f632f71112fa8d457a23120624)
+        ;
+
+        
+    
+    
+            var circle_marker_b3552af6393f4a28113e1025c4d49e7e = L.circleMarker(
+                [41.261673, -95.855054],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.08, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_da9ad2621c7b365cd69c39c787827b3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98adead382476bd934a50aec0128ae50 = $(`<div id="html_98adead382476bd934a50aec0128ae50" style="width: 100.0%; height: 100.0%;">Hy-Vee Drugstore / Council Bluffs</div>`)[0];
+                popup_da9ad2621c7b365cd69c39c787827b3e.setContent(html_98adead382476bd934a50aec0128ae50);
+            
+        
+
+        circle_marker_b3552af6393f4a28113e1025c4d49e7e.bindPopup(popup_da9ad2621c7b365cd69c39c787827b3e)
+        ;
+
+        
+    
+    
+            var circle_marker_563df8f4e6db8c6c2f93ee1463b71e9e = L.circleMarker(
+                [41.408437, -91.06411300000002],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.16, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_e011822d96e6134b314444a281252518 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7cd819889958df93080188f4529f863d = $(`<div id="html_7cd819889958df93080188f4529f863d" style="width: 100.0%; height: 100.0%;">Nash Finch / Wholesale Food</div>`)[0];
+                popup_e011822d96e6134b314444a281252518.setContent(html_7cd819889958df93080188f4529f863d);
+            
+        
+
+        circle_marker_563df8f4e6db8c6c2f93ee1463b71e9e.bindPopup(popup_e011822d96e6134b314444a281252518)
+        ;
+
+        
+    
+    
+            var circle_marker_81c7e5b2a0980680452629d9fb18a201 = L.circleMarker(
+                [41.554101, -93.596754],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.8, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_ff5b57cf81966f83d70466c1ed3ab317 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_deb03b645b4610582a8a98ad10f87ec6 = $(`<div id="html_deb03b645b4610582a8a98ad10f87ec6" style="width: 100.0%; height: 100.0%;">Hy-Vee #3 / BDI / Des Moines</div>`)[0];
+                popup_ff5b57cf81966f83d70466c1ed3ab317.setContent(html_deb03b645b4610582a8a98ad10f87ec6);
+            
+        
+
+        circle_marker_81c7e5b2a0980680452629d9fb18a201.bindPopup(popup_ff5b57cf81966f83d70466c1ed3ab317)
+        ;
+
+        
+    
+    
+            var circle_marker_c57064b2c5eb43867ed968a43de4b1af = L.circleMarker(
+                [42.039205, -92.912817],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.24, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_98a1ebdd1bb18b79c7875c059659f386 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd7234bb59f17c60d064e923a1e7e3bb = $(`<div id="html_dd7234bb59f17c60d064e923a1e7e3bb" style="width: 100.0%; height: 100.0%;">Hy-Vee Food Store / Marshalltown</div>`)[0];
+                popup_98a1ebdd1bb18b79c7875c059659f386.setContent(html_dd7234bb59f17c60d064e923a1e7e3bb);
+            
+        
+
+        circle_marker_c57064b2c5eb43867ed968a43de4b1af.bindPopup(popup_98a1ebdd1bb18b79c7875c059659f386)
+        ;
+
+        
+    
+    
+            var circle_marker_de744ef5ae79a455a1810561a3af930d = L.circleMarker(
+                [42.530476, -92.337583],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.2, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_54d9531576a1eb4f76199eb45cc44c89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a9dc6faa68ce0bd04779cd664d49ac4 = $(`<div id="html_8a9dc6faa68ce0bd04779cd664d49ac4" style="width: 100.0%; height: 100.0%;">Hy-Vee Food Store #2 / Waterloo</div>`)[0];
+                popup_54d9531576a1eb4f76199eb45cc44c89.setContent(html_8a9dc6faa68ce0bd04779cd664d49ac4);
+            
+        
+
+        circle_marker_de744ef5ae79a455a1810561a3af930d.bindPopup(popup_54d9531576a1eb4f76199eb45cc44c89)
+        ;
+
+        
+    
+    
+            var circle_marker_7ba507df9e40cbee27cc93d051603d72 = L.circleMarker(
+                [43.200164, -96.294824],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.24, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_380ac87182d8091ead75f103b7536fdb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62942f5d0111172182c78c3e0b39d341 = $(`<div id="html_62942f5d0111172182c78c3e0b39d341" style="width: 100.0%; height: 100.0%;">Pump N Pak</div>`)[0];
+                popup_380ac87182d8091ead75f103b7536fdb.setContent(html_62942f5d0111172182c78c3e0b39d341);
+            
+        
+
+        circle_marker_7ba507df9e40cbee27cc93d051603d72.bindPopup(popup_380ac87182d8091ead75f103b7536fdb)
+        ;
+
+        
+    
+    
+            var circle_marker_b054e0154e95ffade59ab95e59caf4fd = L.circleMarker(
+                [42.504742, -94.15824700000002],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.32, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_0ca64a5603cac351ba0df350fde37e92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e0a0f9f0f5145a3030dc795ec97659f = $(`<div id="html_6e0a0f9f0f5145a3030dc795ec97659f" style="width: 100.0%; height: 100.0%;">Hy-Vee Food Store / Fort Dodge</div>`)[0];
+                popup_0ca64a5603cac351ba0df350fde37e92.setContent(html_6e0a0f9f0f5145a3030dc795ec97659f);
+            
+        
+
+        circle_marker_b054e0154e95ffade59ab95e59caf4fd.bindPopup(popup_0ca64a5603cac351ba0df350fde37e92)
+        ;
+
+        
+    
+    
+            var circle_marker_2bce1e43e83fa79be266cdb5dbad4c6a = L.circleMarker(
+                [43.285134, -92.811539],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.2, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_eee6dac98c1115dd23bb3209cfd04e75 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd163b7fd8aed91ccd886a05bc9d452b = $(`<div id="html_bd163b7fd8aed91ccd886a05bc9d452b" style="width: 100.0%; height: 100.0%;">Osage Payless Foods</div>`)[0];
+                popup_eee6dac98c1115dd23bb3209cfd04e75.setContent(html_bd163b7fd8aed91ccd886a05bc9d452b);
+            
+        
+
+        circle_marker_2bce1e43e83fa79be266cdb5dbad4c6a.bindPopup(popup_eee6dac98c1115dd23bb3209cfd04e75)
+        ;
+
+        
+    
+    
+            var circle_marker_91532515d3890c846b95d337081fbd99 = L.circleMarker(
+                [42.65318400000001, -95.200758],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.16, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_4c9e1ec851855adebdcdbb0842e1b4fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_447506028283d9204560c7c4c9697b3a = $(`<div id="html_447506028283d9204560c7c4c9697b3a" style="width: 100.0%; height: 100.0%;">Hy-Vee Wine and Spirits / Storm Lake</div>`)[0];
+                popup_4c9e1ec851855adebdcdbb0842e1b4fe.setContent(html_447506028283d9204560c7c4c9697b3a);
+            
+        
+
+        circle_marker_91532515d3890c846b95d337081fbd99.bindPopup(popup_4c9e1ec851855adebdcdbb0842e1b4fe)
+        ;
+
+        
+    
+    
+            var circle_marker_38c4b2aa150d67f26d5e96b284524fc3 = L.circleMarker(
+                [41.672672, -91.565517],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.04, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_efa79b55df262c304a5c00a09903bc47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ce2d2888994d7dd47b4fae18549f1b5 = $(`<div id="html_1ce2d2888994d7dd47b4fae18549f1b5" style="width: 100.0%; height: 100.0%;">Bootleggin' Barzini's Fin</div>`)[0];
+                popup_efa79b55df262c304a5c00a09903bc47.setContent(html_1ce2d2888994d7dd47b4fae18549f1b5);
+            
+        
+
+        circle_marker_38c4b2aa150d67f26d5e96b284524fc3.bindPopup(popup_efa79b55df262c304a5c00a09903bc47)
+        ;
+
+        
+    
+    
+            var circle_marker_f16097de26ecdd8e7800159824b17ed8 = L.circleMarker(
+                [41.238092, -95.8792],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.92, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_af08282837668c41eb1de660191bb172 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6063c21018c6248e4bbde6d957b3b12b = $(`<div id="html_6063c21018c6248e4bbde6d957b3b12b" style="width: 100.0%; height: 100.0%;">I-80 Liquor / Council Bluffs</div>`)[0];
+                popup_af08282837668c41eb1de660191bb172.setContent(html_6063c21018c6248e4bbde6d957b3b12b);
+            
+        
+
+        circle_marker_f16097de26ecdd8e7800159824b17ed8.bindPopup(popup_af08282837668c41eb1de660191bb172)
+        ;
+
+        
+    
+    
+            var circle_marker_f955c3085199459115c1cdde7c4508a1 = L.circleMarker(
+                [42.475631, -92.287834],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.4, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_ede8c82607ea602c6c476e5486346aa4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_454970c152ccd03cd6e3fac2075cd70d = $(`<div id="html_454970c152ccd03cd6e3fac2075cd70d" style="width: 100.0%; height: 100.0%;">Fareway Stores #067 / Evansdale</div>`)[0];
+                popup_ede8c82607ea602c6c476e5486346aa4.setContent(html_454970c152ccd03cd6e3fac2075cd70d);
+            
+        
+
+        circle_marker_f955c3085199459115c1cdde7c4508a1.bindPopup(popup_ede8c82607ea602c6c476e5486346aa4)
+        ;
+
+        
+    
+    
+            var circle_marker_f842cae78e72901177a3575e3c8899be = L.circleMarker(
+                [42.065252, -94.850616],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.16, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_ba6488c994f613ffc6ef57f3ee75bbda = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_689fb8ad1f9efa9df72150e4e9a4fa75 = $(`<div id="html_689fb8ad1f9efa9df72150e4e9a4fa75" style="width: 100.0%; height: 100.0%;">Fareway Stores #409 / Carroll</div>`)[0];
+                popup_ba6488c994f613ffc6ef57f3ee75bbda.setContent(html_689fb8ad1f9efa9df72150e4e9a4fa75);
+            
+        
+
+        circle_marker_f842cae78e72901177a3575e3c8899be.bindPopup(popup_ba6488c994f613ffc6ef57f3ee75bbda)
+        ;
+
+        
+    
+    
+            var circle_marker_0ca37a80bf18090254821941a4090a71 = L.circleMarker(
+                [42.051619, -92.912975],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.12, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_e0f145251ab6cf187af81cd3463dc02e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e523788fde051103e9217f7a1c024283 = $(`<div id="html_e523788fde051103e9217f7a1c024283" style="width: 100.0%; height: 100.0%;">Depot Liquor & Grocery</div>`)[0];
+                popup_e0f145251ab6cf187af81cd3463dc02e.setContent(html_e523788fde051103e9217f7a1c024283);
+            
+        
+
+        circle_marker_0ca37a80bf18090254821941a4090a71.bindPopup(popup_e0f145251ab6cf187af81cd3463dc02e)
+        ;
+
+        
+    
+    
+            var circle_marker_d79155230aa06f1fb365689556f866b3 = L.circleMarker(
+                [41.918328, -91.410401],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26.4, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_69683562b9aad2d05617f88a842c6523 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c44f1e19718f6c3b65ba17c6d3a4fb54 = $(`<div id="html_c44f1e19718f6c3b65ba17c6d3a4fb54" style="width: 100.0%; height: 100.0%;">Wilkie Liquors</div>`)[0];
+                popup_69683562b9aad2d05617f88a842c6523.setContent(html_c44f1e19718f6c3b65ba17c6d3a4fb54);
+            
+        
+
+        circle_marker_d79155230aa06f1fb365689556f866b3.bindPopup(popup_69683562b9aad2d05617f88a842c6523)
+        ;
+
+        
+    
+    
+            var circle_marker_cee5317f799fc739eac7039f85ab64c5 = L.circleMarker(
+                [41.554101, -93.596754],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.64, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_b6e9236d0fd545efe15ae4030f9316b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00313d404ffa01a4b0f128b5ead20cd5 = $(`<div id="html_00313d404ffa01a4b0f128b5ead20cd5" style="width: 100.0%; height: 100.0%;">Hy-Vee #3 / BDI / Des Moines</div>`)[0];
+                popup_b6e9236d0fd545efe15ae4030f9316b8.setContent(html_00313d404ffa01a4b0f128b5ead20cd5);
+            
+        
+
+        circle_marker_cee5317f799fc739eac7039f85ab64c5.bindPopup(popup_b6e9236d0fd545efe15ae4030f9316b8)
+        ;
+
+        
+    
+    
+            var circle_marker_4ccb5a92ee91b4545378e6b2e0c71647 = L.circleMarker(
+                [41.257663, -95.902023],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.28, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_32a0df4cd3588310c3a36fad70bb4f84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d70762d4752b04730006edd15a978b1b = $(`<div id="html_d70762d4752b04730006edd15a978b1b" style="width: 100.0%; height: 100.0%;">Speedy Gas N Shop</div>`)[0];
+                popup_32a0df4cd3588310c3a36fad70bb4f84.setContent(html_d70762d4752b04730006edd15a978b1b);
+            
+        
+
+        circle_marker_4ccb5a92ee91b4545378e6b2e0c71647.bindPopup(popup_32a0df4cd3588310c3a36fad70bb4f84)
+        ;
+
+        
+    
+    
+            var circle_marker_018e118471a3a776219ca37801cf244d = L.circleMarker(
+                [41.918328, -91.410401],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 36.0, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_f9e7c90ad17f4b4690704078ba11aef4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9fa4713ae48fffcbeddf997452f716c5 = $(`<div id="html_9fa4713ae48fffcbeddf997452f716c5" style="width: 100.0%; height: 100.0%;">Wilkie Liquors</div>`)[0];
+                popup_f9e7c90ad17f4b4690704078ba11aef4.setContent(html_9fa4713ae48fffcbeddf997452f716c5);
+            
+        
+
+        circle_marker_018e118471a3a776219ca37801cf244d.bindPopup(popup_f9e7c90ad17f4b4690704078ba11aef4)
+        ;
+
+        
+    
+    
+            var circle_marker_c9f6ef5df5bb7cf38c92c5dca3bc7e33 = L.circleMarker(
+                [42.030129, -91.701581],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.44, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_77d74c76e4d88cbbbb9b4eb771a179f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd491de3bb748fa721a00f157686647e = $(`<div id="html_bd491de3bb748fa721a00f157686647e" style="width: 100.0%; height: 100.0%;">Hy-Vee #7 / Cedar Rapids</div>`)[0];
+                popup_77d74c76e4d88cbbbb9b4eb771a179f9.setContent(html_bd491de3bb748fa721a00f157686647e);
+            
+        
+
+        circle_marker_c9f6ef5df5bb7cf38c92c5dca3bc7e33.bindPopup(popup_77d74c76e4d88cbbbb9b4eb771a179f9)
+        ;
+
+        
+    
+    
+            var circle_marker_80af6a984aa2093dd14cb0aca481c9f0 = L.circleMarker(
+                [41.538186, -90.615542],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.08, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_c08b171d699e5258fe1bdda182e58ef9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33297b60e8d94973fa656746a2c50189 = $(`<div id="html_33297b60e8d94973fa656746a2c50189" style="width: 100.0%; height: 100.0%;">Famous Liquors</div>`)[0];
+                popup_c08b171d699e5258fe1bdda182e58ef9.setContent(html_33297b60e8d94973fa656746a2c50189);
+            
+        
+
+        circle_marker_80af6a984aa2093dd14cb0aca481c9f0.bindPopup(popup_c08b171d699e5258fe1bdda182e58ef9)
+        ;
+
+        
+    
+    
+            var circle_marker_29de60aab87c86a95edca1a3ac8c23dd = L.circleMarker(
+                [42.43407, -96.37082],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.76, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_a3838202c9fd256d7fea599db665ca29 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_397854b4ce1b911af42be32530954109 = $(`<div id="html_397854b4ce1b911af42be32530954109" style="width: 100.0%; height: 100.0%;">Sam's Club 6432 / Sioux City</div>`)[0];
+                popup_a3838202c9fd256d7fea599db665ca29.setContent(html_397854b4ce1b911af42be32530954109);
+            
+        
+
+        circle_marker_29de60aab87c86a95edca1a3ac8c23dd.bindPopup(popup_a3838202c9fd256d7fea599db665ca29)
+        ;
+
+        
+    
+    
+            var circle_marker_05fcc785a93502dc9dfb51dcef516372 = L.circleMarker(
+                [41.642764, -91.53046300000001],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.72, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_191a74ea6df03a09cb10d770432f2bc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d26ab9807a0e57f8e8454be74ef62e3 = $(`<div id="html_3d26ab9807a0e57f8e8454be74ef62e3" style="width: 100.0%; height: 100.0%;">Hy-Vee Wine and Spirits / Iowa City</div>`)[0];
+                popup_191a74ea6df03a09cb10d770432f2bc3.setContent(html_3d26ab9807a0e57f8e8454be74ef62e3);
+            
+        
+
+        circle_marker_05fcc785a93502dc9dfb51dcef516372.bindPopup(popup_191a74ea6df03a09cb10d770432f2bc3)
+        ;
+
+        
+    
+    
+            var circle_marker_84ca30d934e13bf68cf8d662b4fae8f6 = L.circleMarker(
+                [43.148451, -93.235588],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.92, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_841d18e620f21e631767da44b19a21e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c776139e1e304eabd235d9a1f48ebf4 = $(`<div id="html_6c776139e1e304eabd235d9a1f48ebf4" style="width: 100.0%; height: 100.0%;">Hy-Vee Food Store #1 / Mason City</div>`)[0];
+                popup_841d18e620f21e631767da44b19a21e4.setContent(html_6c776139e1e304eabd235d9a1f48ebf4);
+            
+        
+
+        circle_marker_84ca30d934e13bf68cf8d662b4fae8f6.bindPopup(popup_841d18e620f21e631767da44b19a21e4)
+        ;
+
+        
+    
+    
+            var circle_marker_3312897ebe2f7ebac625e0729f54d45e = L.circleMarker(
+                [42.001123, -93.613648],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.52, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_e1f0a9d8bf70ce4eee8d9b1ea49418a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d2b848a4c07a7bc5bc05f4aff91c4d1 = $(`<div id="html_3d2b848a4c07a7bc5bc05f4aff91c4d1" style="width: 100.0%; height: 100.0%;">Sam's Club 6568 / Ames</div>`)[0];
+                popup_e1f0a9d8bf70ce4eee8d9b1ea49418a2.setContent(html_3d2b848a4c07a7bc5bc05f4aff91c4d1);
+            
+        
+
+        circle_marker_3312897ebe2f7ebac625e0729f54d45e.bindPopup(popup_e1f0a9d8bf70ce4eee8d9b1ea49418a2)
+        ;
+
+        
+    
+    
+            var circle_marker_be52dfb8693276d86039d13077a98863 = L.circleMarker(
+                [40.826163, -91.112658],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.92, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_27bb788e9d081a68b99ef038c79e2d5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b706e35984dfeb545e1f0fde14f07c05 = $(`<div id="html_b706e35984dfeb545e1f0fde14f07c05" style="width: 100.0%; height: 100.0%;">Quik Stop  /  Burlington</div>`)[0];
+                popup_27bb788e9d081a68b99ef038c79e2d5f.setContent(html_b706e35984dfeb545e1f0fde14f07c05);
+            
+        
+
+        circle_marker_be52dfb8693276d86039d13077a98863.bindPopup(popup_27bb788e9d081a68b99ef038c79e2d5f)
+        ;
+
+        
+    
+    
+            var circle_marker_53dbbd70b591c2fdad0ab69a96023108 = L.circleMarker(
+                [42.43407, -96.37082],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.36, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_39115c63b09498eb64cb169aadae8ccc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6ad2d434a83152648d1c8efd517eac6 = $(`<div id="html_d6ad2d434a83152648d1c8efd517eac6" style="width: 100.0%; height: 100.0%;">Sam's Club 6432 / Sioux City</div>`)[0];
+                popup_39115c63b09498eb64cb169aadae8ccc.setContent(html_d6ad2d434a83152648d1c8efd517eac6);
+            
+        
+
+        circle_marker_53dbbd70b591c2fdad0ab69a96023108.bindPopup(popup_39115c63b09498eb64cb169aadae8ccc)
+        ;
+
+        
+    
+    
+            var circle_marker_b247641b3b6534ba2fc37f217592c28a = L.circleMarker(
+                [41.615059, -93.854477],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.36, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_4ae6ffa6544b108cafbc8b21748a62c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b922b3ba84f0e6d377d9ae86c2b7cb3c = $(`<div id="html_b922b3ba84f0e6d377d9ae86c2b7cb3c" style="width: 100.0%; height: 100.0%;">Hy-Vee / Waukee</div>`)[0];
+                popup_4ae6ffa6544b108cafbc8b21748a62c9.setContent(html_b922b3ba84f0e6d377d9ae86c2b7cb3c);
+            
+        
+
+        circle_marker_b247641b3b6534ba2fc37f217592c28a.bindPopup(popup_4ae6ffa6544b108cafbc8b21748a62c9)
+        ;
+
+        
+    
+    
+            var circle_marker_a564383ef1f18b4558d52b6db2613fca = L.circleMarker(
+                [41.598515, -93.808855],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.6, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_7a78ace23c51d5ce0c2670042a8d22b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46e44fee37884ebda8348b7ae77c3884 = $(`<div id="html_46e44fee37884ebda8348b7ae77c3884" style="width: 100.0%; height: 100.0%;">Hy-Vee Wine and Spirits / WDM</div>`)[0];
+                popup_7a78ace23c51d5ce0c2670042a8d22b0.setContent(html_46e44fee37884ebda8348b7ae77c3884);
+            
+        
+
+        circle_marker_a564383ef1f18b4558d52b6db2613fca.bindPopup(popup_7a78ace23c51d5ce0c2670042a8d22b0)
+        ;
+
+        
+    
+    
+            var circle_marker_9022bab9c29d9c053651bee03e1f4158 = L.circleMarker(
+                [41.60572, -93.613739],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.2, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_7117696153edb40dc7b44b61a8584086 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4b8e7ea8a91f5e3ae15b1fc3459c839 = $(`<div id="html_e4b8e7ea8a91f5e3ae15b1fc3459c839" style="width: 100.0%; height: 100.0%;">Central City 2</div>`)[0];
+                popup_7117696153edb40dc7b44b61a8584086.setContent(html_e4b8e7ea8a91f5e3ae15b1fc3459c839);
+            
+        
+
+        circle_marker_9022bab9c29d9c053651bee03e1f4158.bindPopup(popup_7117696153edb40dc7b44b61a8584086)
+        ;
+
+        
+    
+    
+            var circle_marker_19a2b289ac0b0a27657f2b98550c99b3 = L.circleMarker(
+                [42.491862, -90.705328],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.2, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_dec4ba8a3b7e09df7938cfd935c266ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dfb81af53ae3fdf89c19ae3dc8f028e1 = $(`<div id="html_dfb81af53ae3fdf89c19ae3dc8f028e1" style="width: 100.0%; height: 100.0%;">Sid's Beverage Shop</div>`)[0];
+                popup_dec4ba8a3b7e09df7938cfd935c266ad.setContent(html_dfb81af53ae3fdf89c19ae3dc8f028e1);
+            
+        
+
+        circle_marker_19a2b289ac0b0a27657f2b98550c99b3.bindPopup(popup_dec4ba8a3b7e09df7938cfd935c266ad)
+        ;
+
+        
+    
+    
+            var circle_marker_bae8c7c14dd296ae294b8cb4c8445fe4 = L.circleMarker(
+                [41.665172, -93.697731],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.92, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_53da64e25870c355219906789a917fb6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd4bb7a5c7c8e01bc15766927f825fb9 = $(`<div id="html_dd4bb7a5c7c8e01bc15766927f825fb9" style="width: 100.0%; height: 100.0%;">Hy-Vee Food Store / Johnston</div>`)[0];
+                popup_53da64e25870c355219906789a917fb6.setContent(html_dd4bb7a5c7c8e01bc15766927f825fb9);
+            
+        
+
+        circle_marker_bae8c7c14dd296ae294b8cb4c8445fe4.bindPopup(popup_53da64e25870c355219906789a917fb6)
+        ;
+
+        
+    
+    
+            var circle_marker_d674a141602d82c03f656fd23b5f8c85 = L.circleMarker(
+                [41.58269000000001, -93.70689],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.88, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_35396d9886028988577a09276b7fb3eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0191c846a2e763893ccb7e029c4e0da7 = $(`<div id="html_0191c846a2e763893ccb7e029c4e0da7" style="width: 100.0%; height: 100.0%;">Fareway Stores #153  /  W Des Moines</div>`)[0];
+                popup_35396d9886028988577a09276b7fb3eb.setContent(html_0191c846a2e763893ccb7e029c4e0da7);
+            
+        
+
+        circle_marker_d674a141602d82c03f656fd23b5f8c85.bindPopup(popup_35396d9886028988577a09276b7fb3eb)
+        ;
+
+        
+    
+    
+            var circle_marker_0a1c0a2a247c63567e6f2c22037d599f = L.circleMarker(
+                [43.148451, -93.235588],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.72, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_ea0c008251040fe2a1d26d5abbd9b5c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14277743a586937f8d87b173ce40f7b0 = $(`<div id="html_14277743a586937f8d87b173ce40f7b0" style="width: 100.0%; height: 100.0%;">Hy-Vee Food Store #1 / Mason City</div>`)[0];
+                popup_ea0c008251040fe2a1d26d5abbd9b5c8.setContent(html_14277743a586937f8d87b173ce40f7b0);
+            
+        
+
+        circle_marker_0a1c0a2a247c63567e6f2c22037d599f.bindPopup(popup_ea0c008251040fe2a1d26d5abbd9b5c8)
+        ;
+
+        
+    
+    
+            var circle_marker_b66367837c385b1a8e952008fd160b43 = L.circleMarker(
+                [42.677024, -91.910502],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.32, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_a79a597a4d6d8897651fac1fd7867265 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2548d20e6f4fea7ef7719217aff4c80f = $(`<div id="html_2548d20e6f4fea7ef7719217aff4c80f" style="width: 100.0%; height: 100.0%;">Fareway Stores #412 / Oelwein</div>`)[0];
+                popup_a79a597a4d6d8897651fac1fd7867265.setContent(html_2548d20e6f4fea7ef7719217aff4c80f);
+            
+        
+
+        circle_marker_b66367837c385b1a8e952008fd160b43.bindPopup(popup_a79a597a4d6d8897651fac1fd7867265)
+        ;
+
+        
+    
+    
+            var circle_marker_8cd81e6e68f4f4163aa252bc5e34be66 = L.circleMarker(
+                [43.262114, -91.473634],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.04, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_82861226cee307a85ae53079da7d5787 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cadac9f10769294991cc541d8bf9136 = $(`<div id="html_8cadac9f10769294991cc541d8bf9136" style="width: 100.0%; height: 100.0%;">Double D Liquor Store</div>`)[0];
+                popup_82861226cee307a85ae53079da7d5787.setContent(html_8cadac9f10769294991cc541d8bf9136);
+            
+        
+
+        circle_marker_8cd81e6e68f4f4163aa252bc5e34be66.bindPopup(popup_82861226cee307a85ae53079da7d5787)
+        ;
+
+        
+    
+    
+            var circle_marker_fe1457f7b18d35cbbe4a02553f57097e = L.circleMarker(
+                [41.554101, -93.596754],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.88, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_30b53544c9dfd203eb3d5902a63ea9c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_433063a9b8e2605f3fde8e77e62afde9 = $(`<div id="html_433063a9b8e2605f3fde8e77e62afde9" style="width: 100.0%; height: 100.0%;">Hy-Vee #3 / BDI / Des Moines</div>`)[0];
+                popup_30b53544c9dfd203eb3d5902a63ea9c6.setContent(html_433063a9b8e2605f3fde8e77e62afde9);
+            
+        
+
+        circle_marker_fe1457f7b18d35cbbe4a02553f57097e.bindPopup(popup_30b53544c9dfd203eb3d5902a63ea9c6)
+        ;
+
+        
+    
+    
+            var circle_marker_22bf1bc0431f7f4d8aa0eaead2ec023e = L.circleMarker(
+                [41.836268000000004, -90.193204],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.96, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_d4c452ffb04891cefac313ec8438c671 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dfa622c43a34a244a5b9b9fa617efa93 = $(`<div id="html_dfa622c43a34a244a5b9b9fa617efa93" style="width: 100.0%; height: 100.0%;">Hy-Vee Food and Drug / Clinton</div>`)[0];
+                popup_d4c452ffb04891cefac313ec8438c671.setContent(html_dfa622c43a34a244a5b9b9fa617efa93);
+            
+        
+
+        circle_marker_22bf1bc0431f7f4d8aa0eaead2ec023e.bindPopup(popup_d4c452ffb04891cefac313ec8438c671)
+        ;
+
+        
+    
+    
+            var circle_marker_0dd35b861f62396407353c9f8b7b2c6c = L.circleMarker(
+                [42.530476, -92.337583],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.04, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_4428190f0cac63ddd6e9b8f580ccc00b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9080b094261c24b78a8481cfc27ff0bc = $(`<div id="html_9080b094261c24b78a8481cfc27ff0bc" style="width: 100.0%; height: 100.0%;">Hy-Vee Food Store #2 / Waterloo</div>`)[0];
+                popup_4428190f0cac63ddd6e9b8f580ccc00b.setContent(html_9080b094261c24b78a8481cfc27ff0bc);
+            
+        
+
+        circle_marker_0dd35b861f62396407353c9f8b7b2c6c.bindPopup(popup_4428190f0cac63ddd6e9b8f580ccc00b)
+        ;
+
+        
+    
+    
+            var circle_marker_d8d17bb968ef4e0f14d0dcb7cd3d427c = L.circleMarker(
+                [41.599274, -93.505732],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.08, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_37a732e5fc8380d6561b61aef2c3ad12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_facf2d26bb521d0db2077a890c6e040f = $(`<div id="html_facf2d26bb521d0db2077a890c6e040f" style="width: 100.0%; height: 100.0%;">Fareway Stores #138 / Pleasant Hill</div>`)[0];
+                popup_37a732e5fc8380d6561b61aef2c3ad12.setContent(html_facf2d26bb521d0db2077a890c6e040f);
+            
+        
+
+        circle_marker_d8d17bb968ef4e0f14d0dcb7cd3d427c.bindPopup(popup_37a732e5fc8380d6561b61aef2c3ad12)
+        ;
+
+        
+    
+    
+            var circle_marker_2541cf007606142c8e35bb3213f707d3 = L.circleMarker(
+                [42.064155, -94.853591],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.72, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_d5263f192a0ec140613673d4509b8891 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c122b676285ac7596e0d2198812c9c71 = $(`<div id="html_c122b676285ac7596e0d2198812c9c71" style="width: 100.0%; height: 100.0%;">Hy-Vee Food Store / Carroll</div>`)[0];
+                popup_d5263f192a0ec140613673d4509b8891.setContent(html_c122b676285ac7596e0d2198812c9c71);
+            
+        
+
+        circle_marker_2541cf007606142c8e35bb3213f707d3.bindPopup(popup_d5263f192a0ec140613673d4509b8891)
+        ;
+
+        
+    
+    
+            var circle_marker_5380675ea50d8d331450f652a2ee9d88 = L.circleMarker(
+                [41.604312, -93.573845],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.96, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_2a2a83adf700fe1d9bbd4f132ca74f56 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1b167b6fd91d9ffd75a33f5f6d2bdb3 = $(`<div id="html_c1b167b6fd91d9ffd75a33f5f6d2bdb3" style="width: 100.0%; height: 100.0%;">Hy-Vee Wine and Spirits / Hubbell</div>`)[0];
+                popup_2a2a83adf700fe1d9bbd4f132ca74f56.setContent(html_c1b167b6fd91d9ffd75a33f5f6d2bdb3);
+            
+        
+
+        circle_marker_5380675ea50d8d331450f652a2ee9d88.bindPopup(popup_2a2a83adf700fe1d9bbd4f132ca74f56)
+        ;
+
+        
+    
+    
+            var circle_marker_1e6049159389143944f1058f7e909468 = L.circleMarker(
+                [41.8321, -91.67737],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.6, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_d0d470f5b5c5d89117385adce7da2a51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36c58896ce4fc3aba5c5ed37acccfc69 = $(`<div id="html_36c58896ce4fc3aba5c5ed37acccfc69" style="width: 100.0%; height: 100.0%;">Cedar Ridge Vineyards</div>`)[0];
+                popup_d0d470f5b5c5d89117385adce7da2a51.setContent(html_36c58896ce4fc3aba5c5ed37acccfc69);
+            
+        
+
+        circle_marker_1e6049159389143944f1058f7e909468.bindPopup(popup_d0d470f5b5c5d89117385adce7da2a51)
+        ;
+
+        
+    
+    
+            var circle_marker_67c2799c796d6548b7333b9a79e82414 = L.circleMarker(
+                [41.642764, -91.53046300000001],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.4, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_cefac138bd3564670b86becbf878c6fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60d9ad27526bb0462ea012cd6807f163 = $(`<div id="html_60d9ad27526bb0462ea012cd6807f163" style="width: 100.0%; height: 100.0%;">Hy-Vee Wine and Spirits / Iowa City</div>`)[0];
+                popup_cefac138bd3564670b86becbf878c6fd.setContent(html_60d9ad27526bb0462ea012cd6807f163);
+            
+        
+
+        circle_marker_67c2799c796d6548b7333b9a79e82414.bindPopup(popup_cefac138bd3564670b86becbf878c6fd)
+        ;
+
+        
+    
+    
+            var circle_marker_2df16b50427d50283d2c64d0c7e8631b = L.circleMarker(
+                [41.403856, -94.990031],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.16, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_1eac061053a272f8d85ee083d8f432b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5fbe826b7f8363276033c9ef3d448253 = $(`<div id="html_5fbe826b7f8363276033c9ef3d448253" style="width: 100.0%; height: 100.0%;">Hy-Vee Wine and Spirits / Atlantic</div>`)[0];
+                popup_1eac061053a272f8d85ee083d8f432b0.setContent(html_5fbe826b7f8363276033c9ef3d448253);
+            
+        
+
+        circle_marker_2df16b50427d50283d2c64d0c7e8631b.bindPopup(popup_1eac061053a272f8d85ee083d8f432b0)
+        ;
+
+        
+    
+    
+            var circle_marker_aac84cc96faa472f9ae3f7ca87688711 = L.circleMarker(
+                [42.459938, -92.327917],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.72, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_6ad20a65e0f9e1852fa7c65391bcc556 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_893c2ca55a2aa178d342e6f37822f660 = $(`<div id="html_893c2ca55a2aa178d342e6f37822f660" style="width: 100.0%; height: 100.0%;">Hy-Vee Food Store #3 / Waterloo</div>`)[0];
+                popup_6ad20a65e0f9e1852fa7c65391bcc556.setContent(html_893c2ca55a2aa178d342e6f37822f660);
+            
+        
+
+        circle_marker_aac84cc96faa472f9ae3f7ca87688711.bindPopup(popup_6ad20a65e0f9e1852fa7c65391bcc556)
+        ;
+
+        
+    
+    
+            var circle_marker_0d745fc3c243c19108bf69e38742a8fa = L.circleMarker(
+                [42.43407, -96.37082],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.6, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_a6c3ba178b315e8ef29936d1600aec3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2098932f049c3a27e711b3ca1972ab83 = $(`<div id="html_2098932f049c3a27e711b3ca1972ab83" style="width: 100.0%; height: 100.0%;">Sam's Club 6432 / Sioux City</div>`)[0];
+                popup_a6c3ba178b315e8ef29936d1600aec3a.setContent(html_2098932f049c3a27e711b3ca1972ab83);
+            
+        
+
+        circle_marker_0d745fc3c243c19108bf69e38742a8fa.bindPopup(popup_a6c3ba178b315e8ef29936d1600aec3a)
+        ;
+
+        
+    
+    
+            var circle_marker_8b528521fa05b854546aca94ef950612 = L.circleMarker(
+                [40.715722, -94.237509],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.2, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_b328dc453b2fc9c4d3a4c0572b0b1d49 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eff89253e7ee1793bc79085a52b0d42a = $(`<div id="html_eff89253e7ee1793bc79085a52b0d42a" style="width: 100.0%; height: 100.0%;">Fareway Stores #597 / Creston</div>`)[0];
+                popup_b328dc453b2fc9c4d3a4c0572b0b1d49.setContent(html_eff89253e7ee1793bc79085a52b0d42a);
+            
+        
+
+        circle_marker_8b528521fa05b854546aca94ef950612.bindPopup(popup_b328dc453b2fc9c4d3a4c0572b0b1d49)
+        ;
+
+        
+    
+    
+            var circle_marker_16fe597a3b9b9fb8021c70d670c4dc99 = L.circleMarker(
+                [41.557404, -95.899346],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.08, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_d8c05a3a93c99a632dd7a042f95c3451 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_274793f1d763eadc37172f9b8d044b74 = $(`<div id="html_274793f1d763eadc37172f9b8d044b74" style="width: 100.0%; height: 100.0%;">Food Land Super Markets</div>`)[0];
+                popup_d8c05a3a93c99a632dd7a042f95c3451.setContent(html_274793f1d763eadc37172f9b8d044b74);
+            
+        
+
+        circle_marker_16fe597a3b9b9fb8021c70d670c4dc99.bindPopup(popup_d8c05a3a93c99a632dd7a042f95c3451)
+        ;
+
+        
+    
+    
+            var circle_marker_b5541f5f25d1d998128163d8cfd3621d = L.circleMarker(
+                [42.064155, -94.853591],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.48, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_8c344badf9d7b67360c4a38cee9163bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3061156a90267b8d4ab026b50d329bc2 = $(`<div id="html_3061156a90267b8d4ab026b50d329bc2" style="width: 100.0%; height: 100.0%;">Hy-Vee Food Store / Carroll</div>`)[0];
+                popup_8c344badf9d7b67360c4a38cee9163bc.setContent(html_3061156a90267b8d4ab026b50d329bc2);
+            
+        
+
+        circle_marker_b5541f5f25d1d998128163d8cfd3621d.bindPopup(popup_8c344badf9d7b67360c4a38cee9163bc)
+        ;
+
+        
+    
+    
+            var circle_marker_11efb3be1615a0b1fa8f80b8f71733fa = L.circleMarker(
+                [42.510453, -92.337744],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.96, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_80339a238e73a63f13f69d6399847df9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df625556e683e82be5e59e0441752b1d = $(`<div id="html_df625556e683e82be5e59e0441752b1d" style="width: 100.0%; height: 100.0%;">Logan Convenience Store</div>`)[0];
+                popup_80339a238e73a63f13f69d6399847df9.setContent(html_df625556e683e82be5e59e0441752b1d);
+            
+        
+
+        circle_marker_11efb3be1615a0b1fa8f80b8f71733fa.bindPopup(popup_80339a238e73a63f13f69d6399847df9)
+        ;
+
+        
+    
+    
+            var circle_marker_7ef3fd38f0c2f6c59c646282f7c473ea = L.circleMarker(
+                [40.62422600000001, -91.373211],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.44, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_0b8244eccadadb10a0d5241ba82d6768 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c98b1afc99735323e764776b1c8e8b7f = $(`<div id="html_c98b1afc99735323e764776b1c8e8b7f" style="width: 100.0%; height: 100.0%;">Quicker Liquor Store</div>`)[0];
+                popup_0b8244eccadadb10a0d5241ba82d6768.setContent(html_c98b1afc99735323e764776b1c8e8b7f);
+            
+        
+
+        circle_marker_7ef3fd38f0c2f6c59c646282f7c473ea.bindPopup(popup_0b8244eccadadb10a0d5241ba82d6768)
+        ;
+
+        
+    
+    
+            var circle_marker_b371a9f1cfc06b52b857cc1d6a1e3da0 = L.circleMarker(
+                [41.261866, -95.873073],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.16, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_8845fa42d78eb13962a76950c8d3d4ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_774ba3f2a4dbce204041042989ef4ead = $(`<div id="html_774ba3f2a4dbce204041042989ef4ead" style="width: 100.0%; height: 100.0%;">Tobacco Hut #14 / Council Bluffs</div>`)[0];
+                popup_8845fa42d78eb13962a76950c8d3d4ff.setContent(html_774ba3f2a4dbce204041042989ef4ead);
+            
+        
+
+        circle_marker_b371a9f1cfc06b52b857cc1d6a1e3da0.bindPopup(popup_8845fa42d78eb13962a76950c8d3d4ff)
+        ;
+
+        
+    
+    
+            var circle_marker_4f7f64e7cbf8701b69f18ba571c73d29 = L.circleMarker(
+                [42.456374, -92.353103],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30.72, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_57fb09de8f074c4e59307285be4887a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bed900327a26e78d9f39fd39afeddab4 = $(`<div id="html_bed900327a26e78d9f39fd39afeddab4" style="width: 100.0%; height: 100.0%;">Sam's Club 6514 / Waterloo</div>`)[0];
+                popup_57fb09de8f074c4e59307285be4887a5.setContent(html_bed900327a26e78d9f39fd39afeddab4);
+            
+        
+
+        circle_marker_4f7f64e7cbf8701b69f18ba571c73d29.bindPopup(popup_57fb09de8f074c4e59307285be4887a5)
+        ;
+
+        
+    
+    
+            var circle_marker_1f306918c45215d3f9573de996068d02 = L.circleMarker(
+                [42.020729, -91.665139],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.28, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_4b2c874459bcbc96017bc19fda97528c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28a6cb8a4b1ac5ba8ceaf645390600c8 = $(`<div id="html_28a6cb8a4b1ac5ba8ceaf645390600c8" style="width: 100.0%; height: 100.0%;">CVS Pharmacy #8526 / Cedar Rapids</div>`)[0];
+                popup_4b2c874459bcbc96017bc19fda97528c.setContent(html_28a6cb8a4b1ac5ba8ceaf645390600c8);
+            
+        
+
+        circle_marker_1f306918c45215d3f9573de996068d02.bindPopup(popup_4b2c874459bcbc96017bc19fda97528c)
+        ;
+
+        
+    
+    
+            var circle_marker_7cdbd3eaca1e47b69b0ce6fc6299b331 = L.circleMarker(
+                [43.371131, -92.106529],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.08, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_193b367995b32cd835f0b8d965bcac0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42211011b6093380f9f68a44664e80d1 = $(`<div id="html_42211011b6093380f9f68a44664e80d1" style="width: 100.0%; height: 100.0%;">The Ox & Wren Spirits and Gifts</div>`)[0];
+                popup_193b367995b32cd835f0b8d965bcac0c.setContent(html_42211011b6093380f9f68a44664e80d1);
+            
+        
+
+        circle_marker_7cdbd3eaca1e47b69b0ce6fc6299b331.bindPopup(popup_193b367995b32cd835f0b8d965bcac0c)
+        ;
+
+        
+    
+    
+            var circle_marker_296646c9c1ad4abe8fe85f6e92d7c1c3 = L.circleMarker(
+                [41.682337000000004, -91.591868],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.92, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_fa891ba2881aaf3e8cf3cbdb252d34b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7048430874b000a0f34fe0ca67479ed0 = $(`<div id="html_7048430874b000a0f34fe0ca67479ed0" style="width: 100.0%; height: 100.0%;">Hy-Vee Food Store / Coralville</div>`)[0];
+                popup_fa891ba2881aaf3e8cf3cbdb252d34b6.setContent(html_7048430874b000a0f34fe0ca67479ed0);
+            
+        
+
+        circle_marker_296646c9c1ad4abe8fe85f6e92d7c1c3.bindPopup(popup_fa891ba2881aaf3e8cf3cbdb252d34b6)
+        ;
+
+        
+    
+    
+            var circle_marker_6a8fbfcdf9a5d8b5e8a269a35ff942a9 = L.circleMarker(
+                [42.504959, -90.668138],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.16, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_b3302896dda9fa31b7898030dcc450e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_deb124b047fcb625d04c92623a69a2bf = $(`<div id="html_deb124b047fcb625d04c92623a69a2bf" style="width: 100.0%; height: 100.0%;">Iowa Street Market, Inc.</div>`)[0];
+                popup_b3302896dda9fa31b7898030dcc450e0.setContent(html_deb124b047fcb625d04c92623a69a2bf);
+            
+        
+
+        circle_marker_6a8fbfcdf9a5d8b5e8a269a35ff942a9.bindPopup(popup_b3302896dda9fa31b7898030dcc450e0)
+        ;
+
+        
+    
+    
+            var circle_marker_9d297365286b593ebdd8f8ed56ef4438 = L.circleMarker(
+                [42.031819, -91.67969],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.64, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_e007aa36d6d7990738598f9ae8933064 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66ad4156c248382dfc374d8afb7dcac0 = $(`<div id="html_66ad4156c248382dfc374d8afb7dcac0" style="width: 100.0%; height: 100.0%;">Sam's Club 8162 / Cedar Rapids</div>`)[0];
+                popup_e007aa36d6d7990738598f9ae8933064.setContent(html_66ad4156c248382dfc374d8afb7dcac0);
+            
+        
+
+        circle_marker_9d297365286b593ebdd8f8ed56ef4438.bindPopup(popup_e007aa36d6d7990738598f9ae8933064)
+        ;
+
+        
+    
+    
+            var circle_marker_247f7bb3f6427ebf792d3244ac26bf6f = L.circleMarker(
+                [41.60572, -93.613739],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.4, "stroke": true, "weight": 3}
+            ).addTo(map_b6ad2d02104fe8073cd026301ea0882f);
+        
+    
+        var popup_41f842c5cde2a5f365bda51957fa4880 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d10b81a46785765bda4fd39a8dd00953 = $(`<div id="html_d10b81a46785765bda4fd39a8dd00953" style="width: 100.0%; height: 100.0%;">Central City 2</div>`)[0];
+                popup_41f842c5cde2a5f365bda51957fa4880.setContent(html_d10b81a46785765bda4fd39a8dd00953);
+            
+        
+
+        circle_marker_247f7bb3f6427ebf792d3244ac26bf6f.bindPopup(popup_41f842c5cde2a5f365bda51957fa4880)
+        ;
+
+        
+    
+</script>
+</html>
